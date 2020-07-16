@@ -1,0 +1,124 @@
+@charset "utf-8"; 
+
+body {
+    font-family:'THE외계인설명서';
+    background-color: #FCF8F8;
+}
+#title {
+    text-align: center;
+    font-size: 60px;
+    color : #AE6060;
+    padding : 0;
+    margin-bottom: 30px;
+    margin-top: auto;
+}
+p a {
+    text-decoration: none;
+    color: #AE6060;
+}
+#bar {
+    list-style-type: none;
+    margin: auto;
+    padding: auto;
+    background-color: #FBECEE;
+    border-radius: 100px;
+    border-color: #F7A6B3;
+    border-style: solid;
+    border-width: 1px;
+    width: 1743px;
+    height: 78px;
+}
+#bar:after {
+    content:'';
+    display: block;
+    clear:both;
+}
+li {
+    list-style: none;
+    float: left;
+}
+li a {
+    display: block;
+    color: #AE6060;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left : 100px;
+    margin-right : 100px;
+    padding: 0;
+    text-align: right;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #000000;
+}
+#search {
+    height : 40px;
+    width : 300px;
+    font-size: 25px;
+    border-radius : 100px;
+    border-width: 1px;
+    display : inline-block;
+    font-family: "THE외계인설명서";
+    color: #AE6060;
+    background-image: url('icon.png');
+    background-position: 5px center;
+    background-repeat: no-repeat;
+}
+#search:focus {
+    outline : none;
+    background-image: none;
+}
+.comment {
+    margin-left: 84px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    width: 1743px;
+    height: 66px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: repeat(10, minmax(200px auto));
+    grid-template-areas: 
+    "wr wt";
+}
+writer, writing {
+    font-size: 30px;
+    color: #AE6060;
+    border: 1px solid #F7A6B3;
+    text-align: center;
+}
+writer {
+    grid-area: wr;
+}
+writing {
+    grid-area: wt;
+}
+.FaceBook {
+    text-align: center;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+}
+#image1 {
+    margin-left: -50px;
+}
+#name1 {
+    margin-left: 70px;
+    margin-top: -27px;
+    color: #AE6060;
+    font-size: 20px;
+}
+#image2 {
+    margin-left: -50px;
+}
+.InstaGram {
+    text-align: center;
+    margin: auto;
+}
+#name2 {
+    margin-left: 90px;
+    margin-top: -34px;
+    color: #AE6060;
+    font-size: 20px;
+}

@@ -1,0 +1,237 @@
+@charset "utf-8"; 
+
+body {
+    font-family:'THE외계인설명서';
+    background-color: #FCF8F8;
+}
+#title {
+    text-align: center;
+    font-size: 60px;
+    color : #AE6060;
+    padding : 0;
+    margin-bottom: 30px;
+    margin-top: auto;
+}
+#bar {
+    list-style-type: none;
+    margin: auto;
+    padding: auto;
+    background-color: #FBECEE;
+    border-radius: 100px;
+    border-color: #F7A6B3;
+    border-style: solid;
+    border-width: 1px;
+    width: 1743px;
+    height: 78px;
+}
+#bar:after {
+    content:'';
+    display: block;
+    clear:both;
+}
+li {
+    list-style: none;
+    float: left;
+}
+li a {
+    display: block;
+    color: #AE6060;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left : 100px;
+    margin-right : 100px;
+    padding: 0;
+    text-align: right;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #e88787;
+    color: #ffffff;
+}
+#search {
+    height : 40px;
+    width : 300px;
+    font-size: 25px;
+    border-radius : 100px;
+    border-width: 1px;
+    display : inline-block;
+    font-family: "THE외계인설명서";
+    color: #AE6060;
+    background-image: url('icon.png');
+    background-position: 5px center;
+    background-repeat: no-repeat;
+}
+#search:focus {
+    outline : none;
+    background-image: none;
+}
+.main {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.box1 {
+    display: flex;
+    width: 839px;
+    height: 412px;
+    margin-left: 121px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    border-color: #F7A6B3;
+    border-width: 1px;
+    border-style: solid;
+    background-color: #FFFFFF;
+}
+#picture {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.four_box {
+    width: 839px;
+    height: 412px;
+    margin-left: 962px;
+    margin-top: -415px;
+    margin-bottom: 0;
+    margin-right: 0;
+}
+.box2_1 {
+    width: 419px;
+    height: 205px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    border-color: #F7A6B3;
+    border-width: 1px;
+    border-style: solid;
+    background-color: #FFDFE9;
+}
+.box2_2 {
+    width: 419px;
+    height: 205px;
+    margin: 0;
+    border-color: #F7A6B3;
+    border-width: 1px;
+    border-style: solid;
+    background-color: #FFDFE9;
+}
+#four_type {
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+}
+#four_type a {
+    text-decoration: none;
+    color: #AE6060;
+}
+#four_type a:hover:not(.active) {
+    background-color: #e88787;
+    color: #ffffff;
+}
+.two_box {
+    display: flex;
+    flex-direction: row;
+}
+.box3 {
+    width: 839px;
+    height: 212px;
+    color: #AE6060;
+    margin-left: 121px;
+    margin-top: 1px;
+    margin-right: 0;
+    margin-bottom: 0;
+    border: #F7A6B3;
+    border-width: 1px;
+    border-style: solid;
+    background-color: #FFFFFF;
+    background-image: url('이미지\ 3.png');
+    background-repeat: no-repeat;
+    background-position-x: 200px;
+    background-position-y: center;
+}
+#PlayList {
+    margin: 0;
+    font-size: 30px;
+    text-align: center;
+}
+#Music {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 7%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+#Music a {
+    text-decoration: none;
+    color: #AE6060;
+}
+#Music a:hover:not(.active) {
+    background-color: #e88787;
+    color: #ffffff;
+}
+.box4 {
+    background-color: #FFFFFF;
+    width: 837px;
+    height: 212px;
+    color: #AE6060;
+    margin-left: 962px;
+    margin-top: -214px;
+    border: #F7A6B3;
+    border-width: 1px;
+    border-style: solid;
+}
+#TC {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 9%;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.FaceBook {
+    text-align: center;
+    margin-top: 41px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+}
+#image1 {
+    margin-left: -50px;
+}
+#name1 {
+    margin-left: 70px;
+    margin-top: -27px;
+    color: #AE6060;
+    font-size: 20px;
+}
+#name1 a {
+    text-decoration: none;
+    color: #AE6060;
+}
+#name1 a:hover:not(.active) {
+    background-color: #e88787;
+    color: #ffffff;
+}
+#image2 {
+    margin-left: -50px;
+}
+.InstaGram {
+    text-align: center;
+    margin: auto;
+}
+#name2 {
+    margin-left: 90px;
+    margin-top: -34px;
+    color: #AE6060;
+    font-size: 20px;
+}
+#name2 a {
+    text-decoration: none;
+    color: #AE6060;
+}
+#name2 a:hover:not(.active) {
+    background-color: #e88787;
+    color: #ffffff;
+}
