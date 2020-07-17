@@ -49,7 +49,8 @@ li a {
     text-decoration: none;
 }
 li a:hover:not(.active) {
-    background-color: #000000;
+    background-color: #e88787;
+    color: #ffffff;
 }
 #search {
     height : 40px;
